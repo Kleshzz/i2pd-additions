@@ -1,4 +1,4 @@
-# i2pd-addition
+# i2pd-additions
 
 ![i2pd logo](https://avatars.githubusercontent.com/u/10586309?s=200&v=4)
 
