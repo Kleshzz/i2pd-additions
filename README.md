@@ -1,6 +1,6 @@
 # i2pd-addition
 
-![i2pd logo](https://www.i2p2.de/_media/i2pdlogo.png)
+![i2pd logo](https://avatars.githubusercontent.com/u/10586309?s=200&v=4)
 
 **i2pd-addition** is a repository for additional tools and enhancements for **I2PD**.  
 It allows users to easily add scripts for logging, monitoring, and other extensions.
@@ -12,9 +12,9 @@ It allows users to easily add scripts for logging, monitoring, and other extensi
 i2pd-addition/
 ├─ i2pd.exe
 ├─ i2pd_additions.bat
-└─ contrib
+├─ contrib
 └─ additions/
-├─ addition_name.py
+└─ addition_name.py
 
 - `i2pd.exe` - I2PD router executable
 - `i2pd_additions.bat` - Launcher for i2pd and additions
