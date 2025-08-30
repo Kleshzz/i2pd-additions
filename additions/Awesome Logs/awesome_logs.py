@@ -5,13 +5,11 @@ import datetime
 import time
 from colorama import init, Fore, Style
 
-# === Пути ===
-APPDATA_DIR = os.getenv("APPDATA")  # автоматически C:\Users\<User>\AppData\Roaming
+APPDATA_DIR = os.getenv("APPDATA")
 LOG_FILE = os.path.join(APPDATA_DIR, "i2pd", "i2pd.log")
 ARCHIVE_DIR = os.path.join(APPDATA_DIR, "i2pd", "logs_archive")
 MAX_SIZE_MB = 15
 
-# === Цвета ===
 init(autoreset=True)
 pattern = re.compile(r"(?P<time>\d+:\d+:\d+)@(?P<pid>\d+)/(?P<level>\w+) - (?P<msg>.+)")
 
