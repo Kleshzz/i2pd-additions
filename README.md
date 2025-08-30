@@ -9,12 +9,14 @@ It allows users to easily add scripts for logging, monitoring, and other extensi
 
 ## 📦 Folder Structure
 
-i2pd-addition/
+```
+i2pd_folder/
 ├─ i2pd.exe
 ├─ i2pd_additions.bat
 ├─ contrib
 └─ additions/
 └─ addition_name.py
+```
 
 - `i2pd.exe` - I2PD router executable
 - `i2pd_additions.bat` - Launcher for i2pd and additions
